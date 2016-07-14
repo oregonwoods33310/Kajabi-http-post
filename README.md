@@ -1,10 +1,10 @@
 # Kajabi-http-post
-Creates a new member in Kajabi from external event (shopping cart outside Kajabi)
-kajabi http post
+Am trying to create new members in Kajabi from external events (shopping cart outside Kajabi)
+
 
 ---------
 POST / HTTP/ 1.1
-host http so://checkout.newkajabi.com/webhooks/offers/oDLs9DoScZGPVh9F/674/activate
+host http://checkout.newkajabi.com/webhooks/offers/oDLs9DoScZGPVh9F/674/activate
 content-length: (don't know)
 require 'json'
 def post_to_endpoint(endpoint)
